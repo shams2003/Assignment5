@@ -145,6 +145,7 @@ document.getElementById("btn6").addEventListener("click", function() {
    if (number > 0) { 
        number++;  
        document.getElementById("tow").innerText = number;
+       alert ("your are done thik task"); 
        
 
        if (tw > 0) {
@@ -156,7 +157,15 @@ document.getElementById("btn6").addEventListener("click", function() {
    } else {
        alert("Number 0 er niche nama jabe na!");
    }
+
+
 });
+
+
+
+
+
+
 
 
 
