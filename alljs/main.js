@@ -146,6 +146,8 @@ document.getElementById("btn6").addEventListener("click", function() {
        number++;  
        document.getElementById("tow").innerText = number;
        alert ("your are done thik task"); 
+       alert ("your are done "); 
+
        
 
        if (tw > 0) {
@@ -160,10 +162,6 @@ document.getElementById("btn6").addEventListener("click", function() {
 
 
 });
-
-
-
-
 
 
 
