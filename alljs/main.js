@@ -3,7 +3,7 @@ document.getElementById("btn1").addEventListener("click", function() {
     this.disabled = true;
 
    const currentTime = new Date().toLocaleTimeString(); 
-   document.getElementById("mag").innerText = "You have completed the task! Added Dark Mode at " + currentTime;
+   document.getElementById("mag").innerText = "You have completed the task! Fix Mobile Button Issue  " + currentTime;
 
    let tw = parseInt(document.getElementById("task").innerText);
    let number = parseInt(document.getElementById("tow").innerText);
@@ -30,7 +30,7 @@ document.getElementById("btn2").addEventListener("click", function() {
     this.disabled = true;
 
    const currentTime = new Date().toLocaleTimeString(); 
-   document.getElementById("mag2").innerText = "You have completed the task! Added Dark Mode at " + currentTime;
+   document.getElementById("mag2").innerText = "You have completed the task! Add Dark Mode " + currentTime;
 
    let tw = parseInt(document.getElementById("task").innerText);
    let number = parseInt(document.getElementById("tow").innerText);
@@ -56,7 +56,7 @@ document.getElementById("btn3").addEventListener("click", function() {
     this.disabled = true;
 
    const currentTime = new Date().toLocaleTimeString(); 
-   document.getElementById("mag3").innerText = "You have completed the task! Added Dark Mode at " + currentTime;
+   document.getElementById("mag3").innerText = "You have completed the task! Optimize  Home page  " + currentTime;
 
    let tw = parseInt(document.getElementById("task").innerText);
    let number = parseInt(document.getElementById("tow").innerText);
@@ -83,7 +83,7 @@ document.getElementById("btn4").addEventListener("click", function() {
     this.disabled = true;
 
    const currentTime = new Date().toLocaleTimeString(); 
-   document.getElementById("mag4").innerText = "You have completed the task! Added Dark Mode at " + currentTime;
+   document.getElementById("mag4").innerText = "You have completed the task! Add new emoji 🤲 " + currentTime;
 
    let tw = parseInt(document.getElementById("task").innerText);
    let number = parseInt(document.getElementById("tow").innerText);
@@ -110,7 +110,7 @@ document.getElementById("btn5").addEventListener("click", function() {
     this.disabled = true;
 
    const currentTime = new Date().toLocaleTimeString(); 
-   document.getElementById("mag5").innerText = "You have completed the task! Added Dark Mode at " + currentTime;
+   document.getElementById("mag5").innerText = "You have completed the task! Integrate OpenAI API  " + currentTime;
 
    let tw = parseInt(document.getElementById("task").innerText);
    let number = parseInt(document.getElementById("tow").innerText);
@@ -137,7 +137,7 @@ document.getElementById("btn6").addEventListener("click", function() {
     this.disabled = true;
 
    const currentTime = new Date().toLocaleTimeString(); 
-   document.getElementById("mag6").innerText = "You have completed the task! Added Dark Mode at " + currentTime;
+   document.getElementById("mag6").innerText = "You have completed the task! Improve Job searching  " + currentTime;
 
    let tw = parseInt(document.getElementById("task").innerText);
    let number = parseInt(document.getElementById("tow").innerText);
@@ -147,7 +147,7 @@ document.getElementById("btn6").addEventListener("click", function() {
        document.getElementById("tow").innerText = number;
        
 
-       if (tw > 1) {
+       if (tw > 0) {
            tw--;  
            document.getElementById("task").innerText = tw;
        } else {
