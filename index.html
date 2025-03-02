@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<header >
+  <body class="h-screen" >
+    <div class="container mx-auto">
+      <nav  >
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="flex-1">
+              <div class="flex">
+                <img class="w-10" src="./assets/logo.png" alt="">
+                <a class="btn btn-ghost">Dev <span class="text-xl"> Board </span></a>
+              </div>
+              
+            </div>
+        <div>
+          <!-- chk box -->
+           <div class="flex">
+            <img class=" h-8 mr-3" src="./assets/checkbox.png" alt="">
+            <h1 id="tow" class="text-2xl  font-bold">23</h1>
+
+            <button id="btn-color" class=" ml-3"> <img src="./assets/theme-btn.png" alt=""></button>
+           </div>
+
+        </div>
+          </div>
+    </nav>
+
+    <main class=" mt-4 flex ">
+     <div>
+      <section class="flex gap-9 ml-10 ">
+        <!-- card 1 -->
+       <div class="flex  bg-slate-200 rounded-md p-5 w-72 ">
+         
+        <img class="w-auto h-8" src="./assets/checkbox.png" alt="">
+         <div class="ml-5">
+          <h3>Task Assigned </h3>
+         <h1 id="task" class="font-bold text-3xl">6</h1>
+         </div> 
+
+         
+        
+     </div>
+     
+     <!-- button -->
+     <div class="flex bg-gradient-to-r from-blue-800 to-white border-spacing-3 rounded-xl w-96">
+      <img src="./assets/board.png" alt="">
+      <button id="next" class=" font-black">Discover Something New Today!</button>
+     </div>
+     <div class="flex  bg-slate-200 rounded-md p-5 w-96 ">
+         
+    <img class="w-auto h-8" src="./assets/calender.png" alt="">
+       <div class="ml-5">
+        
+       <h1 id="date" class="font-bold text-xl">Fri Jul 28 2025 </h1>
+       </div> 
+
+       <div>
+        
+       </div>
+      </section>
+
+      <!-- ccard -->
+
+      <div class=" mt-3 grid grid-cols-3 gap-5">
+       
+        <div class="card bg-[#F4F7FF] text-primary-content w-96">
+          <div class="card-body">
+            <button class=" bg-slate-300 text-black rounded-md w-20 p-1"> ShopEase</button>
+            <h2 class="card-title text-black font-semibold text-3xl mt-2">Fix Mobile Button Issue </h2>
+            <p class="text-amber-900">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions justify-between mt-5">
+              <div>
+                <p class="text-black">Deadline</p>
+              <h1 class="text-black font-semibold">21 March 2025</h1>
+              </div>
+              <button id="btn1" class="btn btn-primary" >Completed</button>
+            </div>
+          </div>
+        </div>
+
+        <div iv class="card bg-[#F4F7FF] text-primary-content w-96">
+          <div class="card-body">
+            <button class=" bg-slate-300 text-black rounded-md w-20 p-1"> CloudSync</button>
+            <h2 class="card-title text-black font-semibold text-3xl mt-2">Add Dark Mode </h2>
+            <p class="text-amber-900">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions justify-between mt-5">
+              <div>
+                <p class="text-black">Deadline</p>
+              <h1 class="text-black font-semibold">21 March 2025</h1>
+              </div>
+              <button id="btn2" class="btn btn-primary"">Completed</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card bg-[#F4F7FF] text-primary-content w-96">
+          <div class="card-body">
+            <button class=" bg-slate-300 text-black rounded-md w-20 p-1"> SwiftPay</button>
+            <h2 class="card-title text-black font-semibold text-3xl mt-2">Optimize  Home page  </h2>
+            <p class="text-amber-900">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions justify-between mt-5">
+              <div>
+                <p class="text-black">Deadline</p>
+              <h1 class="text-black font-semibold">21 March 2025</h1>
+              </div>
+              <button id="btn3" class="btn btn-primary"">Completed</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card bg-[#F4F7FF] text-primary-content w-96">
+          <div class="card-body">
+            <button class=" bg-slate-300 text-black rounded-md w-20 p-1"> Meta</button>
+            <h2 class="card-title text-black font-semibold text-3xl mt-2">Add new emoji 🤲 </h2>
+            <p class="text-amber-900">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions justify-between mt-5">
+              <div>
+                <p class="text-black">Deadline</p>
+              <h1 class="text-black font-semibold">21 March 2025</h1>
+              </div>
+              <button id="btn4" class="btn btn-primary"">Completed</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card bg-[#F4F7FF] text-primary-content w-96">
+          <div class="card-body">
+            <button class=" bg-slate-300 text-black rounded-md w-28 p-1"> Google LLC</button>
+            <h2 class="card-title text-black font-semibold text-3xl mt-2">Integrate OpenAI API  </h2>
+            <p class="text-amber-900">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions justify-between mt-5">
+              <div>
+                <p class="text-black">Deadline</p>
+              <h1 class="text-black font-semibold">21 March 2025</h1>
+              </div>
+              <button id="btn5" class="btn btn-primary"">Completed</button>
+            </div>
+          </div>
+        </div>
+    
+        <div class="card bg-[#F4F7FF] text-primary-content w-96">
+          <div class="card-body">
+            <button class=" bg-slate-300 text-black rounded-md w-20 p-1"> Glassdoar</button>
+            <h2 class="card-title text-black font-semibold text-3xl mt-2">Improve Job searching  </h2>
+            <p class="text-amber-900">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+            <div class="card-actions justify-between mt-5">
+              <div>
+                <p class="text-black">Deadline</p>
+              <h1 class="text-black font-semibold">21 March 2025</h1>
+              </div>
+              <button id="btn6" class="btn btn-primary"">Completed</button>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+     </div>
+
+      <!-- card -->
+        
+        <section class=" ml-10 border border-blue-900 w-60 p-2 justify-items-center">
+          <div>
+            <div class="flex">
+              <img src="./assets/activity.png" alt="">
+              <h3>Activity Log</h3>
+            </div>
+            <button id="Clear" class=" btn btn-primary mt-5">Clear History</button>
+           
+            <div class=" w-40 mt-3 gap-5">
+              <h1 id="mag"></h1>
+              <h1 id="mag2"></h1>
+              <h1 id="mag3"></h1>
+              <h1 id="mag4"></h1>
+              <h1 id="mag5"></h1>
+              <h1 id="mag6"></h1>
+            </div>
+          </div>
+       </section>
+
+
+    
+    </main>
+  <section>
+  
+  </section>
+  
+    </div>
+    <script src="./alljs/next.js"></script>
+    <script src="./alljs/main.js"></script>
+</body>
+</header>
+
+<script>
+  function updateDate() {
+      const today = new Date();
+  
+      const formattedDate = today.toLocaleDateString("en-US", {
+          weekday: "short",
+          month: "short",
+          day: "numeric",
+          year: "numeric"
+      });
+    
+      document.getElementById("date").innerText = formattedDate;
+  }
+  
+  
+  updateDate();
+  </script>
+
+
+</html>
